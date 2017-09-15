@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "GrabTheCherries_WebGL.data.unityweb",
+"asmCodeUrl": "GrabTheCherries_WebGL.asm.code.unityweb",
+"asmMemoryUrl": "GrabTheCherries_WebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "GrabTheCherries_WebGL.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

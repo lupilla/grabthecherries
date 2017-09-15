@@ -1,0 +1,13 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="restoreGame">
+			<method name="restoreLevel"/>
+			<method name="restoreLevel"/>
+		</type>
+		<type fullname="LoadLevel">
+			<method name="LoadStage"/>
+			<method name="LoadHowToPlay"/>
+			<method name="LoadStage"/>
+		</type>
+	</assembly>
+</linker>
