@@ -7,24 +7,21 @@ public class LevelObject : MonoBehaviour {
 	private AudioSource resetLevelAudio;
 	// Use this for initialization
 	void Start () {
+		int count = 6;
 		if (LevelManager.explosions.Count == 0) {
-			LevelManager.explosions.Add ("explosion01", false);
-			LevelManager.explosions.Add ("explosion02", false);
-			LevelManager.explosions.Add ("explosion03", false);
-			LevelManager.explosions.Add ("explosion04", false);
-			LevelManager.explosions.Add ("explosion05", false);
-			LevelManager.explosions.Add ("explosion06", false);
+			
+			for (int i = 1; i <= count; i++)
+			{
+				LevelManager.explosions.Add ("explosion0" + i, false);
+			}
 			LevelManager.explosions.Add ("playOuch", false);
-			LevelManager.explosions.Add ("resetLevel", false);	
+			LevelManager.explosions.Add ("resetLevel", false);
 		} 
 		else {
-			print (LevelManager.LevelCount);
-			LevelManager.explosions["explosion01"] = false;
-			LevelManager.explosions["explosion02"] = false;
-			LevelManager.explosions["explosion03"] = false;
-			LevelManager.explosions["explosion04"] = false;
-			LevelManager.explosions["explosion05"] = false;
-			LevelManager.explosions["explosion06"] = false;
+			for (int i = 1; i <= count; i++)
+			{
+				LevelManager.explosions["explosion0" + i] = false;
+			}
 			resetLevelAudio = GetComponent<AudioSource> ();
 			resetLevelAudio.enabled = true;
 			if (LevelManager.explosions["playOuch"]) {
@@ -34,9 +31,6 @@ public class LevelObject : MonoBehaviour {
 		}
 		PlayerPrefs.SetInt("Level", LevelManager.LevelCount);
 		PlayerPrefs.SetFloat("Force", LevelManager.force);
-
-		print ("Current user level: " + PlayerPrefs.GetInt("Level"));
-		print ("Current level force: " + PlayerPrefs.GetFloat("Force"));
 	}
 	
 	// Update is called once per frame
