@@ -20,8 +20,8 @@ public class finish : MonoBehaviour {
 		if (LevelManager.LevelCount < LevelManager.totalLevels) {
 			print ("total levels: " + LevelManager.totalLevels);
 			LevelManager.LevelCount++;
-			LevelManager.force+=1.0f;
-			print ("level force: " + LevelManager.force);
+			//LevelManager.force+=10.0f;
+			//print ("level force: " + LevelManager.force);
 		} else {
 			LevelManager.LevelCount = 1;
 		}

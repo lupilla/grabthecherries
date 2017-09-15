@@ -2377,7 +2377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e67895977a0402d8c00067145b45cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 3.22
+  time: 4
   axisPosition: 1
 --- !u!1001 &941814873
 Prefab:
@@ -3373,7 +3373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e67895977a0402d8c00067145b45cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 3.7
+  time: 5
   axisPosition: 1
 --- !u!1001 &1405755045
 Prefab:

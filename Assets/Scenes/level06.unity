@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e67895977a0402d8c00067145b45cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 2.77
+  time: 4.7
   axisPosition: 1
 --- !u!1001 &22518916
 Prefab:
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e67895977a0402d8c00067145b45cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 3
+  time: 5
   axisPosition: 1
 --- !u!1001 &594434841
 Prefab:
@@ -3848,7 +3848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e67895977a0402d8c00067145b45cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 2.94
+  time: -1
   axisPosition: 1
 --- !u!1001 &1464403559
 Prefab:
@@ -4909,7 +4909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e67895977a0402d8c00067145b45cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 3.5
+  time: 5.9
   axisPosition: 1
 --- !u!1001 &2066440601
 Prefab:
