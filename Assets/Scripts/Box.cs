@@ -10,17 +10,12 @@ public class Box : MonoBehaviour
 	public string stringExplosion;
 	private AudioSource boxAudio;
 	private bool flag = true;
-	// Use this for initialization
+
 	void Start ()
 	{
 		boxGameObject = GameObject.FindGameObjectWithTag(box);
 		boxAudio = GetComponent<AudioSource> ();
 		boxAudio.enabled = true;
-	}
-
-	// Update is called once per frame
-	void Update ()
-	{
 	}
 
 	void OnTriggerEnter (Collider coll)

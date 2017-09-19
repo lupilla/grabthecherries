@@ -5,16 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class restoreGame : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	public void restoreLevel() {
 
 		if (PlayerPrefs.GetInt ("Level") > 1) {

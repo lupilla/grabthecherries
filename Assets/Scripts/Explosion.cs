@@ -6,12 +6,10 @@ public class Explosion : MonoBehaviour {
 	public string explosionString;
 	private ParticleSystem explosion;
 
-	// Use this for initialization
 	void Start () {
 		explosion = GetComponent<ParticleSystem>();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		if (LevelManager.explosions[explosionString]) {
 			print (explosionString);

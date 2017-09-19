@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelObject : MonoBehaviour {
 	private AudioSource resetLevelAudio;
-	// Use this for initialization
+
 	void Start () {
 		int count = 6;
 		if (LevelManager.explosions.Count == 0) {
@@ -32,8 +32,7 @@ public class LevelObject : MonoBehaviour {
 		PlayerPrefs.SetInt("Level", LevelManager.LevelCount);
 		PlayerPrefs.SetFloat("Force", LevelManager.force);
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		if (LevelManager.explosions["resetLevel"]) { 
 			LevelManager.explosions["resetLevel"] = false;

@@ -4,18 +4,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class move : MonoBehaviour {
-	//public float speed;
 	private Rigidbody _rigidbody;
 	private AudioSource audio;
-	//public float jumpValue;
 
-	// Use this for initialization
 	void Start () {
 		_rigidbody = GetComponent<Rigidbody> ();
 		audio = GetComponent<AudioSource> ();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 	}
 

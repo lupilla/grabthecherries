@@ -5,15 +5,10 @@ using UnityEngine;
 public class changeBoxes : MonoBehaviour {
 	public string tagObjects;
 	private GameObject bombGameObject;
-	// Use this for initialization
+
 	void Start ()
 	{
 		bombGameObject = GameObject.FindGameObjectWithTag(tagObjects);
-	}
-
-	// Update is called once per frame
-	void Update ()
-	{
 	}
 
 	void OnTriggerEnter (Collider coll)
