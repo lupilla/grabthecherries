@@ -1,22 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/restoreGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/rotateStar.cs">
     <Files>
-      <File FileName="Assets/Scripts/bomb.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/restoreGame.cs" Line="6" Column="43" />
+      <File FileName="Assets/Scripts/bomb.cs" Line="6" Column="2" />
       <File FileName="Assets/Scripts/LoadLevel.cs" Line="6" Column="1" />
-      <File FileName="Assets/Scripts/LevelObject.cs" Line="45" Column="1" />
-      <File FileName="Assets/Scripts/move.cs" Line="33" Column="2" />
-      <File FileName="Assets/Scripts/changeBoxes.cs" Line="23" Column="2" />
-      <File FileName="Assets/Scripts/Box.cs" Line="36" Column="2" />
-      <File FileName="Assets/Scripts/finish.cs" Line="44" Column="2" />
-      <File FileName="Assets/Scripts/Explosion.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/LevelObject.cs" Line="35" Column="1" />
+      <File FileName="Assets/Scripts/move.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/changeBoxes.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/Box.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/finish.cs" Line="6" Column="38" />
+      <File FileName="Assets/Scripts/Explosion.cs" Line="12" Column="1" />
       <File FileName="Assets/Scripts/LevelManager.cs" Line="2" Column="1" />
-      <File FileName="Assets/Scripts/restoreGame.cs" Line="29" Column="1" />
       <File FileName="Assets/plugins/Pixelplacement/iTween/moveEnemyHorizontal.cs" Line="1" Column="1" />
       <File FileName="Assets/plugins/Pixelplacement/iTween/moveEnemyVertical.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/rotateStar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/rotateStar.cs" Line="12" Column="1" />
       <File FileName="Assets/Scripts/Fading.cs" Line="34" Column="2" />
-      <File FileName="Assets/plugins/Pixelplacement/iTween/iTween.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
